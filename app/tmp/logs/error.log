@@ -1,0 +1,195 @@
+2014-02-28 08:41:16 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-28 08:41:47 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-28 08:43:33 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Products\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Products\\index.ctp',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-28 08:51:11 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Products\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Products\\add.ctp',
+)
+Request URL: /cakephp/products/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-28 09:03:19 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS) in [C:\xampp\htdocs\cakephp\app\View\Products\add.ctp, line 4]
+2014-02-28 09:03:19 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS)
+Request URL: /cakephp/products/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-28 09:05:02 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS) in [C:\xampp\htdocs\cakephp\app\View\Products\add.ctp, line 6]
+2014-02-28 09:05:02 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS)
+Request URL: /cakephp/products/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-28 09:05:06 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS) in [C:\xampp\htdocs\cakephp\app\View\Products\add.ctp, line 6]
+2014-02-28 09:05:06 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS)
+Request URL: /cakephp/products/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-28 09:05:10 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS) in [C:\xampp\htdocs\cakephp\app\View\Products\add.ctp, line 6]
+2014-02-28 09:05:10 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS)
+Request URL: /cakephp/products/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 06:58:03 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:04:53 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:05:09 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:07:04 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:07:09 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Students/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:07:37 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Students/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:23:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\cakephp\app\Controller\StudentsController.php, line 19]
+2014-04-29 07:23:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/Students/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 07:24:36 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Students/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 07:50:48 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting variable (T_VARIABLE) or '$' in [C:\xampp\htdocs\cakephp\app\View\Students\index.ctp, line 10]
+2014-04-29 07:50:48 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting variable (T_VARIABLE) or '$'
+Request URL: /cakephp/students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 07:51:07 Error: Fatal Error (4): syntax error, unexpected '?', expecting ']' in [C:\xampp\htdocs\cakephp\app\View\Students\index.ctp, line 12]
+2014-04-29 07:51:07 Error: [FatalErrorException] syntax error, unexpected '?', expecting ']'
+Request URL: /cakephp/students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 07:51:26 Error: Fatal Error (4): syntax error, unexpected '?', expecting ']' in [C:\xampp\htdocs\cakephp\app\View\Students\index.ctp, line 12]
+2014-04-29 07:51:26 Error: [FatalErrorException] syntax error, unexpected '?', expecting ']'
+Request URL: /cakephp/students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 07:51:44 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\cakephp\app\View\Students\index.ctp, line 19]
+2014-04-29 07:51:44 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /cakephp/students
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
